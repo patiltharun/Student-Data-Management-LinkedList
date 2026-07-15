@@ -158,4 +158,4 @@ Aspiring Embedded Systems Engineer
 
 ## License
 
-This project was developed for educational purposes as part of the Mini Project "Student Data Management Using Linked List Data Structure." You may use and modify the code for learning and non-commercial projects. If you want a formal license (e.g., MIT), add a LICENSE file with the desired terms.
+This project was developed for educational purposes as part of the Mini Project "Student Data Management Using Linked List Data Structure." You may use and modify the code for learning and non-commercial projects.
