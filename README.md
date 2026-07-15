@@ -110,54 +110,9 @@ Student-Data-Management-System/
   - Load: fread() records and rebuild the linked list in memory.
 
 - Delete All Records
-  - Traverse and free every node, then reset head to NULL.
+  - Traverse and free every node, then reset head to NULL
 
----
-
-## Time Complexity
-
-| Operation | Complexity |
-|----------:|:----------:|
-| Add       | O(n)       |
-| Display   | O(n)       |
-| Search    | O(n)       |
-| Modify    | O(n)       |
-| Delete    | O(n)       |
-| Save      | O(n)       |
-| Load      | O(n)       |
-| Reverse   | O(n)       |
-| Sort      | O(n²)      |
-
----
-
-## Build & Run
-
-Requirements:
-
-- GCC (or any C compiler)
-
-To compile all source files in the project directory:
-
-```bash
-gcc *.c -o student
-```
-
-To run:
-
-On Linux / macOS:
-
-```bash
-./student
-```
-
-On Windows (Command Prompt):
-
-```bat
-student.exe
-```
-
----
-
+ 
 ## Sample Menu
 
 ```
