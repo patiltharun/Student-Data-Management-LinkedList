@@ -1,5 +1,4 @@
- **Student Data Management System (Singly Linked List)
-**
+ **Student Data Management System (Singly Linked List)**
 A simple, menu-driven Student Data Management application written in C using a singly linked list. The program demonstrates dynamic memory allocation, modular programming, and binary file handling to perform CRUD operations on student records.
 
 ---
@@ -132,7 +131,7 @@ Enter Your Choice :
 - Database integration (SQLite/MySQL)
 - Doubly linked list version for simpler bidirectional traversal
 
-** Author**
+**Author**
 
 P. Tharun Reddy
 
