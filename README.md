@@ -51,7 +51,7 @@ Nodes are dynamically allocated using malloc() and freed with free() when delete
 ```
 Student-Data-Management-System/
 
-├─ src/                # (optional) C source files
+├─ src/               
 │  ├─ main.c
 │  ├─ stud_add.c
 │  ├─ stud_show.c
@@ -132,12 +132,12 @@ Enter Your Choice :
 - Database integration (SQLite/MySQL)
 - Doubly linked list version for simpler bidirectional traversal
 
-**Author:**
+  **Author:**
 
 P. Tharun Reddy
 
 B.Tech Student
 
-**License:**
+  **License:**
 
 This project was developed for educational purposes as part of the Mini Project "Student Data Management Using Linked List Data Structure." You may use and modify the code for learning and non-commercial projects.
