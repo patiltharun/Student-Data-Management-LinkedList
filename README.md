@@ -4,20 +4,18 @@ A simple, menu-driven Student Data Management application written in C using a s
 
 ---
 
-## Table of Contents
+## Contents:
 
-- [Features](#features)
-- [Data Structure](#data-structure)
-- [Project Structure](#project-structure)
-- [Modules & Algorithms](#modules--algorithms)
-- [Time Complexity](#time-complexity)
-- [Build & Run](#build--run)
-- [Sample Menu](#sample-menu)
-- [Future Enhancements](#future-enhancements)
-- [Author](#author)
-- [License](#license)
+- Features
+- Data Structure 
+- Project Structure 
+- Modules & Algorithms 
+- Sample Menu 
+- Future Enhancements 
+- Author 
+- License
 
----
+ 
 
 ## Features
 
@@ -30,13 +28,13 @@ A simple, menu-driven Student Data Management application written in C using a s
 - Save/load records to/from a binary file
 - Delete all records
 
----
+ 
 
 ## Data Structure
 
 Each student record is represented by the following struct:
 
-```c
+ 
 typedef struct student
 {
     int rollno;
@@ -44,12 +42,10 @@ typedef struct student
     float percentage;
     struct student *next;
 } ST;
-```
+ 
 
 Nodes are dynamically allocated using malloc() and freed with free() when deleted.
-
----
-
+ 
 ## Project Structure
 
 ```
@@ -66,16 +62,14 @@ Student-Data-Management-System/
 │  ├─ stud_save.c
 │  ├─ stud_load.c
 │  ├─ stud_deleteall.c
-│  ├─ append.c
-│  ├─ search.c
 │  └─ generate_roll.c
 
 ├─ include/
 │  └─ student.h
 
-├─ student.dat         # Binary data file for persistent storage
+├─ student.data         
 ├─ README.md
-└─ Images/
+ 
 ```
 
 > Note: The repository may organize files differently; the above is a suggested structure based on the original project layout.
@@ -114,12 +108,9 @@ Student-Data-Management-System/
 
  
 ## Sample Menu
-
-```
-==============================
+ 
  Student Management System
-==============================
-
+ ---------------------------
 A - Add Student
 S - Show Students
 M - Modify Student
@@ -129,12 +120,9 @@ R - Reverse Records
 V - Save Records
 L - Delete All Records
 E - Exit
-
 Enter Your Choice :
-```
-
----
-
+ 
+ 
 ## Future Enhancements
 
 - Login / authentication
@@ -144,17 +132,11 @@ Enter Your Choice :
 - Database integration (SQLite/MySQL)
 - Doubly linked list version for simpler bidirectional traversal
 
----
-
 ## Author
 
 P. Tharun Reddy
 
 B.Tech Student
-
-Aspiring Embedded Systems Engineer
-
----
 
 ## License
 
