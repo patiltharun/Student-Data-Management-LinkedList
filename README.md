@@ -4,7 +4,7 @@ A simple, menu-driven Student Data Management application written in C using a s
 
 ---
 
-**Contents:**
+  **Contents:**
 
 - Features
 - Data Structure 
@@ -17,7 +17,7 @@ A simple, menu-driven Student Data Management application written in C using a s
 
  
 
-**Features**
+  **Features:**
 
 - Add student record (automatic roll-number generation)
 - Display all student records
@@ -30,7 +30,7 @@ A simple, menu-driven Student Data Management application written in C using a s
 
  
 
-**Data Structure**
+  **Data Structure:**
 
 Each student record is represented by the following struct:
 
@@ -46,7 +46,7 @@ typedef struct student
 
 Nodes are dynamically allocated using malloc() and freed with free() when deleted.
  
- **Project Structure**
+  **Project Structure:**
 
 ```
 Student-Data-Management-System/
@@ -76,7 +76,7 @@ Student-Data-Management-System/
 
 ---
 
-**Modules & Algorithms**
+  **Modules & Algorithms:**
 
 - Add Student
   1. Generate the smallest available roll number.
@@ -123,7 +123,7 @@ E - Exit
 Enter Your Choice :
  
  
-** Future Enhancements**
+  **Future Enhancements:**
 
 - Login / authentication
 - Search by name (case-insensitive)
@@ -132,12 +132,12 @@ Enter Your Choice :
 - Database integration (SQLite/MySQL)
 - Doubly linked list version for simpler bidirectional traversal
 
-**Author**
+**Author:**
 
 P. Tharun Reddy
 
 B.Tech Student
 
-**License**
+**License:**
 
 This project was developed for educational purposes as part of the Mini Project "Student Data Management Using Linked List Data Structure." You may use and modify the code for learning and non-commercial projects.
